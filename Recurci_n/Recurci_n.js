@@ -5,7 +5,7 @@ function setup() {
   var x = (windowWidth - width) / 2;
   var y = (windowHeight - height) / 2;
   canvas.position(0, 0);
-  canvas.parent('sketch-holder');
+  canvas.parent('applet_container1');
 }
 
 function draw() {
