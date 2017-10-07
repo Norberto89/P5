@@ -7,7 +7,6 @@ function draw() {
   noFill();
   stroke(255);
   drawCircle(300,300,200,'c');
-  noloop();
 }
 
 function drawCircle(x,y,d,pos){
