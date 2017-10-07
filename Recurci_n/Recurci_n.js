@@ -1,11 +1,5 @@
 function setup() {
-  var canvas = createCanvas(600, 600);
- 
-  // Move the canvas so it's inside our <div id="sketch-holder">.
-  var x = (windowWidth - width) / 2;
-  var y = (windowHeight - height) / 2;
-  canvas.position(0, 0);
-  canvas.parent('applet_container1');
+  createCanvas(600, 600);
 }
 
 function draw() {
