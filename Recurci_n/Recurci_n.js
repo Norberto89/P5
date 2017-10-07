@@ -10,6 +10,7 @@ function draw() {
   noFill();
   stroke(255);
   drawCircle(300,300,200,'c');
+  noLoop();
 }
 
 function drawCircle(x,y,d,pos){
